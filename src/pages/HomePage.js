@@ -15,18 +15,11 @@ function HomePage() {
           <text className=" text-white my-2">We Provide Best</text>
           <div className="text-lotus-red my-2">
             <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString("Dispatch")
-                  .callFunction(() => {
-                    console.log("String typed out!");
-                  })
-                  .pauseFor(2500)
-                  .deleteAll()
-                  .callFunction(() => {
-                    console.log("All strings were deleted");
-                  })
-                  .start();
+
+              options={{
+                strings: ['Dispatch'],
+                autoStart: true,
+                loop: true,
               }}
             />
           </div>
