@@ -7,6 +7,17 @@
   src: url("../src/constants/fonts/FamiljenGroteskGF-BoldItalic.ttf");
 }
 
+@font-face {
+  font-family:  ExpletusSans-BoldItalic;
+  src: url("./constants/fonts/ExpletusSans-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family:  EncodeSansSemiCondensed-ExtraLight;
+  src: url("./constants/fonts/EncodeSansSemiCondensed-ExtraLight.ttf");
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

@@ -9,8 +9,11 @@ module.exports = {
         'lotus-red': '#e44650',
       },
       fontFamily: {
-        'FamiljenGbi' : ['FamiljenGbi']
-      }
+        'FamiljenGbi' : ['FamiljenGbi'],
+        'ExpletusSans-BoldItalic' : ['ExpletusSans-BoldItalic'],
+        'EncodeSansSemiCondensed-ExtraLight' : ['EncodeSansSemiCondensed-ExtraLight']
+      },
+
     },
   },
   plugins: [],
